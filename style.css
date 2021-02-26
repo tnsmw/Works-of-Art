@@ -6,7 +6,11 @@ html {
 }
 
 body {
-  padding:5rem 0;
+  padding:5em 0;
+}
+
+main {
+
 }
 
 h1 {
@@ -14,15 +18,36 @@ h1 {
 }
 
 div {
-  color: #000;
+  background: #000;
+}
+
+.long-vertical {
+  display:grid;
+  grid-template-columns: repeat(33, 1em);
+  grid-template-rows: repeat(35, 1em);
+  width: 1em;
+  height: 35em;
 }
 
 .long-vertical-1 {
-    background: #FFF174;
-    width: 186px;
-    height: 186px;
+  grid-area: 1 / 1 / 35 / 2;
 }
 
+.long-vertical-2 {
+  grid-area: 1 / 3 / 35 / 4;
+}
+
+.long-vertical-3 {
+  grid-area: 1 / 5 / 35 / 6;
+}
+
+.long-vertical-4 {
+  grid-area: 1 / 7 / 35 / 8;
+}
+
+.long-vertical-5 {
+  grid-area: 1 / 9 / 35 / 10;
+}
 
 /* ==== max width 550px ==== */
 
