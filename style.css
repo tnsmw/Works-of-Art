@@ -221,36 +221,49 @@ div {
 
 @media only screen and (max-width: 550px) {
 
+body {
+  padding: 1em;
+}
+
 main {
   align-content: center;
+  margin-left: 3em;
+  margin-top: 6em;
+}
+
+.container {
+  display:grid;
+  grid-template-columns: repeat(33, 8px);
+  grid-template-rows: repeat(35, 8px);
+  background: #fff;
 }
 
 .long-vertical {
-  width: 50%;
-  height: 50%;
+  width: 8px;
+  height: 280px;
 }
 
 .short-vertical {
-  width: 50%;
-  height: 50%;
+  width: 8px;
+  height: 40px;
 }
 
 .horizontal {
-  width: 50%;
-  height: 50%;
+  width: 104px;
+  height: 8px;
 }
 
 h1, h2 {
   color: #000;
-  font-size: 1.5rem;
-  margin-left: 1em;
+  font-size: 2.5rem;
+  margin-left: .25em;
   margin-top: 1em;
 }
 
 h2 {
   color: #999;
-  font-size: 1rem;
-  margin-left: 1.5em;
+  font-size: 1.5rem;
+  margin-left: .4em;
   text-decoration: underline;
   text-decoration-color: #999;
 }
