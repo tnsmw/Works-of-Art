@@ -1,0 +1,36 @@
+
+html {
+  font-size: 1rem;
+  font-family: 'Heebo', sans-serif;
+  background-color: #fff;
+}
+
+body {
+  padding:5rem 0;
+}
+
+h1 {
+  font-color: #000;
+}
+
+div {
+  color: #000;
+}
+
+.long-vertical-1 {
+    background: #FFF174;
+    width: 186px;
+    height: 186px;
+}
+
+
+/* ==== max width 550px ==== */
+
+@media only screen and (max-width: 550px) {
+
+ main {
+   width: auto;
+   margin-top: 300px;
+  }
+
+}
